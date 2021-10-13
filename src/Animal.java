@@ -17,7 +17,7 @@ public abstract class Animal {
     public abstract void moverse();
 
     public String setNombre(String nombre) {
-        return nombre;
+        return this.nombre = nombre;
     }
 
     public String getNombre() {
